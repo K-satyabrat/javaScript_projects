@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reando-color-generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Main Container -->
+    <div class="random-color-generator-container">
+
+        <!-- hex-color-container -->
+        <div class="hex-color-container">
+            <p class="hex-color-value">#fffff</p>
+            <button class="hex-btn">create hex color</button>
+        </div>
+
+        <!-- rgb-color-container -->
+        <div class="rgb-color-container">
+            <div>
+                <label for="red">red</label>
+                <input type="range" min="0" max="100" value="0" id="red">
+            </div>
+            <div>
+                <label for="green">green</label>
+                <input type="range" min="0" max="100" value="0" id="green">
+            </div>
+            <div>
+                <label for="blue">blue</label>
+                <input type="range" min="0" max="100" value="0" id="blue">
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
